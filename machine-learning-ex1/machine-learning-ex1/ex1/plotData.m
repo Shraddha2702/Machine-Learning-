@@ -16,7 +16,9 @@ function plotData(x, y)
 
 figure; % open a new figure window
 
-
+plot(x,y,'rx');
+xlabel("Profit");
+ylabel("Percentage");
 
 
 
